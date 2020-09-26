@@ -1,0 +1,60 @@
+{
+    "name": "moharrum/laravel-rules",
+    "description": "A set of extra validation rules for the Laravel framework.",
+    "keywords": [
+        "rules",
+        "laravel",
+        "validation",
+        "alpha numeric space",
+        "alpha space",
+        "decimals",
+        "decimal places",
+        "even",
+        "fails",
+        "finite",
+        "infinite",
+        "lowercase",
+        "maximum words",
+        "minimum words",
+        "odd",
+        "passes",
+        "slug",
+        "time",
+        "top level domain or tld",
+        "unique with",
+        "uppercase",
+        "username"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Khalid Moharrum",
+            "email": "khalid.moharrum@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Moharrum\\LaravelRules\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {},
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Moharrum\\LaravelRules\\Providers\\LaravelRulesServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.3",
+        "orchestra/testbench": "^7.0@dev"
+    }
+}
